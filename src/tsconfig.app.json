@@ -6,6 +6,30 @@
     "module": "es2015",
     "types": []
   },
+  "baseUrl": "./app",
+  "paths": {
+      "@angular/*": [
+          "../../node_modules/@angular/*"
+      ],
+      "config/*": [
+          "../../config/*"
+      ],
+      "components": [
+          "components/*"
+      ],
+      "globalStyles": [
+          "global-styles/*"
+      ],
+      "routes": [
+          "routes/*"
+      ],
+      "services": [
+          "services/*"
+      ],
+      "shared": [
+          "shared/*"
+      ]
+  },
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
