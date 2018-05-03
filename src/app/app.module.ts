@@ -24,7 +24,8 @@ import {
 } from './components/index';
 import {
   ToolbarComponent,
-  FooterComponent
+  FooterComponent,
+  SidenavComponent
 } from './shared/components/index';
 
 
@@ -33,7 +34,8 @@ import {
     AppComponent,
     HomeComponent,
     ToolbarComponent,
-    FooterComponent
+    FooterComponent,
+    SidenavComponent
   ],
   imports: [
     // Angular Modules
