@@ -22,11 +22,18 @@ import { AppComponent } from './app.component';
 import {
   HomeComponent
 } from './components/index';
+import {
+  ToolbarComponent,
+  FooterComponent
+} from './shared/components/index';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    ToolbarComponent,
+    FooterComponent
   ],
   imports: [
     // Angular Modules

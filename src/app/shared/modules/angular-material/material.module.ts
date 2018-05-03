@@ -31,7 +31,7 @@ import {
     MatToolbarModule,
     MatTooltipModule,
     MatStepperModule,
-    MatFormFieldModule,
+    MatFormFieldModule
   } from '@angular/material';
   import { CdkTableModule } from '@angular/cdk/table';
   @NgModule({
