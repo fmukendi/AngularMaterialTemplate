@@ -17,7 +17,7 @@ export class SidenavComponent implements OnInit {
   matchMedia(`(max-width: ${SMALL_WIDTH_BREAKPOINT}px)`);
 
 constructor(
-  zone: NgZone, 
+  zone: NgZone,
   private router: Router) {
   this.mediaMatcher.addListener(mql =>
     zone.run(() => this.mediaMatcher = mql));
@@ -28,9 +28,10 @@ constructor(
 ngOnInit() {
 
   this.router.events.subscribe(() => {
-    if (this.isScreenSmall())
+    if (this.isScreenSmall()) {
       this.sidenav.close();
-  })
+    }
+  });
 }
 
 isScreenSmall(): boolean {
