@@ -31,7 +31,9 @@ import {
     MatToolbarModule,
     MatTooltipModule,
     MatStepperModule,
+    MatFormFieldModule
   } from '@angular/material';
+  import { CdkTableModule } from '@angular/cdk/table';
   @NgModule({
     exports: [
       MatAutocompleteModule,
@@ -64,7 +66,9 @@ import {
       MatTableModule,
       MatTabsModule,
       MatToolbarModule,
-      MatTooltipModule
+      MatTooltipModule,
+      MatFormFieldModule,
+      CdkTableModule
     ]
   })
   export class MaterialModule {}
