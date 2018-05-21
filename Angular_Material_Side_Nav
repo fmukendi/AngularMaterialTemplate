@@ -1,0 +1,48 @@
+HTML 
+-----
+
+<mat-sidenav-container class="example-container">
+  <mat-toolbar>
+    <div class="container">
+      <div class="example-sidenav-content">
+        <button mat-button
+          class="sidenav-toggle mat-button"
+          (click)="sidenav.open()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+    </div>
+  </mat-toolbar>
+
+<mat-sidenav #sidenav class="example-sidenav">
+  <p>I am sidenav</p>
+</mat-sidenav>
+
+<div class="containter">
+  <p>I am container</p>
+</div>
+
+</mat-sidenav-container>
+
+
+
+-----
+CSS
+-----
+
+.example-container{
+  height: 100vh;
+  background-color: transparent;
+}
+
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.example-sidenav {
+  padding:20px;
+}
+
