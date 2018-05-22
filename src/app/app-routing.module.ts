@@ -1,10 +1,9 @@
+import { IndexComponent } from './components/index';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { HomeComponent } from './components/home/index';
-
 const routes: Routes = [
-    { path: '', pathMatch: 'full', component: HomeComponent },
+    { path: '', pathMatch: 'full', component: IndexComponent },
 
     // otherwise redirect to home
     { path: '**', redirectTo: '' }
@@ -17,4 +16,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routedComponents = [HomeComponent];
+export const routedComponents = [IndexComponent];
