@@ -20,7 +20,8 @@ import { MaterialModule } from './shared/modules/index';
 // My Compononent
 import { AppComponent } from './app.component';
 import {
-  HomeComponent
+  HomeComponent,
+  IndexComponent
 } from './components/index';
 import {
   ToolbarComponent,
@@ -35,7 +36,8 @@ import {
     HomeComponent,
     ToolbarComponent,
     FooterComponent,
-    SidenavComponent
+    SidenavComponent,
+    IndexComponent
   ],
   imports: [
     // Angular Modules
@@ -51,8 +53,7 @@ import {
     // My Modules
     MaterialModule,
     // Routes
-    AppRoutingModule,
-    
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

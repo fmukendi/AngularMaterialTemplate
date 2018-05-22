@@ -20,4 +20,38 @@
   .wrapper {
     margin: 50px;
   }
-    
+
+  .example-container {
+    height: 100vh;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+
+  :host {
+
+    .toolbar-separator {
+        height: 64px;
+        width: 1px;
+        background: rgba(0, 0, 0, .12);
+        height: 56px;
+    }
+    .example-spacer {
+      flex: 1 1 auto;
+    }
+  
+    .avatar {
+      width: 50px;
+      padding: 5px;
+  }
+}
+
